@@ -11,7 +11,7 @@ function LoginButton({ currentUser, onLogin, onLogout }) {
     } else {
         return <button className="user-button" onClick={onLogin}>
             <div>
-                Login to Cloudnetz
+                Log in
             </div>
         </button>
     }
